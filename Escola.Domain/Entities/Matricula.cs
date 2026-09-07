@@ -10,6 +10,7 @@ public class Matricula
     public bool Ativo { get; set; }
     public Usuario Usuario { get; set; } 
     public Turma Turma { get; set; }
+    
     public ICollection<Nota> Notas { get; set; }
 
 }

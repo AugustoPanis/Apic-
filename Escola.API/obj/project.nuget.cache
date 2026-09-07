@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9+hMkp47jCU=",
+  "dgSpecHash": "gr8sMt4I2DE=",
   "success": true,
   "projectFilePath": "/home/panis/RiderProjects/Escola/Escola.API/Escola.API.csproj",
   "expectedPackageFiles": [
     "/home/panis/.nuget/packages/microsoft.aspnetcore.openapi/10.0.11/microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "/home/panis/.nuget/packages/microsoft.entityframeworkcore/10.0.3/microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "/home/panis/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.3/microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "/home/panis/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.3/microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512",
     "/home/panis/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512"
   ],
   "logs": []
