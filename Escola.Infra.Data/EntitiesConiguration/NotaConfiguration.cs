@@ -10,7 +10,10 @@ public class NotaConfiguration : IEntityTypeConfiguration<Nota>
     public void Configure(EntityTypeBuilder<Nota> builder)
     {
         builder.HasKey(n => n.Id);
-        builder.Property(n => n.ValorNota);
+        builder.Property(n => n.ValorNota)
+            .IsRequired();
+        builder.Property(n => n.MatriculaId)
+            .IsRequired();
         
         builder.HasOne(n => n.Matricula)
             .WithMany(n => n.Notas)
