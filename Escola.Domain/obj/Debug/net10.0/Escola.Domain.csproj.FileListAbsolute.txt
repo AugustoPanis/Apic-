@@ -1,0 +1,13 @@
+/home/panis/RiderProjects/Escola/Escola.Domain/bin/Debug/net10.0/Escola.Domain.deps.json
+/home/panis/RiderProjects/Escola/Escola.Domain/bin/Debug/net10.0/Escola.Domain.dll
+/home/panis/RiderProjects/Escola/Escola.Domain/bin/Debug/net10.0/Escola.Domain.pdb
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.csproj.AssemblyReference.cache
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.AssemblyInfoInputs.cache
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.AssemblyInfo.cs
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.csproj.CoreCompileInputs.cache
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.sourcelink.json
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.dll
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/refint/Escola.Domain.dll
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/Escola.Domain.pdb
+/home/panis/RiderProjects/Escola/Escola.Domain/obj/Debug/net10.0/ref/Escola.Domain.dll
