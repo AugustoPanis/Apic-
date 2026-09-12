@@ -1,4 +1,6 @@
+using Escola.Domain.Entities;using Escola.Infra.Context;
 using Escola.Infra.Ioc;
+using Escola.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddInfraestructure(builder.Configuration);
 
 var app = builder.Build();
+
+private readonly ApplicationDbContext teste;
+TurmaRepository turma = new TurmaRepository();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -11,6 +11,8 @@ public class Matricula
     public Usuario Usuario { get; set; } 
     public Turma Turma { get; set; }
     
+    public bool Excluido { get; set; }
+    
     public ICollection<Nota> Notas { get; set; }
 
 }

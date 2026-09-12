@@ -8,5 +8,6 @@ public class Usuario
     public byte[] PasswordHash { get; set; }
     public byte[] PasswordSalt { get; set; }
     public string Perfil  { get; set; }
+    public bool Excluido { get; set; }
     public ICollection<Matricula> Matriculas { get; set; }
 }

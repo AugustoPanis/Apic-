@@ -13,7 +13,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Matricula> Matricula { get; set; }
     public DbSet<Nota> Nota { get; set; }
     public DbSet<Turma> Turma { get; set; }
-    public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Usuario> Usuario { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
