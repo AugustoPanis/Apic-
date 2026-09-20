@@ -12,9 +12,6 @@ builder.Services.AddInfraestructure(builder.Configuration);
 
 var app = builder.Build();
 
-private readonly ApplicationDbContext teste;
-TurmaRepository turma = new TurmaRepository();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

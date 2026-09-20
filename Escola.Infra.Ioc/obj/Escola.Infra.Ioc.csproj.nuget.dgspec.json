@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {}
+    "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {}
   },
   "projects": {
-    "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj": {
+    "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj",
+        "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj",
         "projectName": "Escola.Application",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Application/obj/",
+        "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj",
+        "packagesPath": "/home/ixcsoft/.nuget/packages/",
+        "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -27,8 +28,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj"
+              "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
+                "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj"
               }
             }
           }
@@ -43,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -349,22 +350,23 @@
         }
       }
     },
-    "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
+    "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
+        "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj",
         "projectName": "Escola.Domain",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Domain/obj/",
+        "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj",
+        "packagesPath": "/home/ixcsoft/.nuget/packages/",
+        "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -384,7 +386,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -412,7 +414,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -690,22 +692,23 @@
         }
       }
     },
-    "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj": {
+    "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/Escola.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj",
+        "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/Escola.Infra.Data.csproj",
         "projectName": "Escola.Infra.Data",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/obj/",
+        "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/Escola.Infra.Data.csproj",
+        "packagesPath": "/home/ixcsoft/.nuget/packages/",
+        "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -713,8 +716,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj"
+              "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
+                "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj"
               }
             }
           }
@@ -729,7 +732,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -773,7 +776,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1051,22 +1054,23 @@
         }
       }
     },
-    "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {
+    "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
+        "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
         "projectName": "Escola.Infra.Ioc",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/obj/",
+        "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
+        "packagesPath": "/home/ixcsoft/.nuget/packages/",
+        "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1074,14 +1078,14 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj"
+              "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj": {
+                "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj"
               },
-              "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj"
+              "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
+                "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj"
               },
-              "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj"
+              "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/Escola.Infra.Data.csproj": {
+                "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Data/Escola.Infra.Data.csproj"
               }
             }
           }
@@ -1096,7 +1100,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -1124,7 +1128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

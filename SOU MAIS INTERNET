@@ -1,0 +1,28 @@
+deixa eu ver se entendi. Sempre que eu faço: private readonly ApplicationDbContext _context; Estou criar um varivel do tipo ApplicationDbContext, na clase ApplicationDbContext tem um cunstrutor, que obriga eu passar um objeto que a base de contrução desse objeto vai ser o clase pai DbContext
+
+private readonly ApplicationDbContext _context;
+
+
+Preciso criar CursoRepository
+             ↓
+Construtor pede ApplicationDbContext
+             ↓
+Eu sei criar ApplicationDbContext?
+             ↓
+SIM!
+AddDbContext<ApplicationDbContext>()
+             ↓
+Crio ApplicationDbContext
+             ↓
+Passo para o construtor
+
+
+Então o fluxo é:
+Criar um clase e suas funcões.
+
+Criar uma clase que se conecta com o banco chamada ApplicationDbContext , para isso ele precisa herdar do DBContext. Precisa herdar do DBContext porque a minha clase filha chama o metodo DbContextOptions passando o objeto que é a clase filha "ApplicationDbContext" e adiciona na variavel options, essa variavel e usando como paramentro para encaminhar a clase pai "DbContext" para ela poder criar o banco baseado nas options da clase ApplicationDbContext
+
+IA
+Eu crio uma classe chamada ApplicationDbContext que herda de DbContext, porque quero utilizar a infraestrutura do Entity Framework Core. O construtor do ApplicationDbContext recebe um objeto DbContextOptions<ApplicationDbContext> chamado options. Esse objeto contém as configurações do contexto, como a configuração do banco. O base(options) passa essas configurações para o construtor da classe pai DbContext, para que o DbContext possa funcionar de acordo com essas configurações.
+
+entendi, vamo focar no options, sempre que eu for criar um objeto do tio ApplicationDbContext tenho que passar um tipo DbContextOptions<ApplicationDbContext> options e para criar esse option está na injeção de depencia que tenho que passsar a string de conexão e outos dadso

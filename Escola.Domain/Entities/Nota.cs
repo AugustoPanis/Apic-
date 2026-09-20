@@ -7,5 +7,6 @@ public class Nota
     public bool Aprovado { get; set; }
     public int MatriculaId { get; set; }
     public bool Excluido { get; set; }
+    public DateTime DataNota { get; set; }
     public Matricula Matricula { get; set; }    
 }
