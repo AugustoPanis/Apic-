@@ -2,7 +2,7 @@ namespace Escola.Domain.Entities;
 
 public class Matricula
 {
-    public int id { get; set; }
+    public int Id { get; set; }
     public int UsuarioId { get; set; }
     public int TurmaId { get; set; }
     public DateTime DataMatricula { get; set; }

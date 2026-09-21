@@ -15,7 +15,7 @@ public class MatriculaRepository : IMatriculaRepository
     }
     public async Task<Matricula> GetByIdAsync(int Id)
     {
-       return await _context.Matricula.Where(x => x.Excluido == false && x.id == Id).FirstOrDefaultAsync();
+       return await _context.Matricula.Where(x => x.Excluido == false && x.Id == Id).FirstOrDefaultAsync();
     }
 
     public async Task<List<Matricula>> GetAllAsync()
@@ -39,7 +39,7 @@ public class MatriculaRepository : IMatriculaRepository
 
     public async Task<Matricula> DeleteAsync(int Id)
     {
-        var matricula = await _context.Matricula.Where(x => x.Excluido == false && x.id == Id).FirstOrDefaultAsync();
+        var matricula = await _context.Matricula.Where(x => x.Excluido == false && x.Id == Id).FirstOrDefaultAsync();
         if (matricula == null)
         {
             return null;

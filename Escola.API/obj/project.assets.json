@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "Humanizer.Core/2.14.1": {
@@ -2285,25 +2285,24 @@
     ]
   },
   "packageFolders": {
-    "/home/ixcsoft/.nuget/packages/": {}
+    "/home/panis/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.API/Escola.API.csproj",
+      "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.API/Escola.API.csproj",
       "projectName": "Escola.API",
-      "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.API/Escola.API.csproj",
-      "packagesPath": "/home/ixcsoft/.nuget/packages/",
-      "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.API/obj/",
+      "projectPath": "/home/panis/RiderProjects/Escola/Escola.API/Escola.API.csproj",
+      "packagesPath": "/home/panis/.nuget/packages/",
+      "outputPath": "/home/panis/RiderProjects/Escola/Escola.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
+        "/home/panis/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2311,8 +2310,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {
-              "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj"
+            "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {
+              "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj"
             }
           }
         }
@@ -2327,7 +2326,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -2362,7 +2361,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

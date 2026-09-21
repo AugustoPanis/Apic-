@@ -9,7 +9,7 @@ public class MatriculaConfiguration : IEntityTypeConfiguration<Matricula>
 {
     public void Configure(EntityTypeBuilder<Matricula> builder)
     {
-        builder.HasKey(m => m.id);
+        builder.HasKey(m => m.Id);
         builder.Property(m => m.UsuarioId).IsRequired();
         builder.Property(m => m.TurmaId).IsRequired();
         

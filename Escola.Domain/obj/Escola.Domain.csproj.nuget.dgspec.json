@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {}
+    "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {}
   },
   "projects": {
-    "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
+    "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj",
+        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
         "projectName": "Escola.Domain",
-        "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj",
-        "packagesPath": "/home/ixcsoft/.nuget/packages/",
-        "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/obj/",
+        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
+        "packagesPath": "/home/panis/.nuget/packages/",
+        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
+          "/home/panis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -68,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
