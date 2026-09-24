@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Escola.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e4be1ce27bc1c2dcf44720f0ad104bf365e032")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+076fd230e4f6a8b40f3b3d2a358c95910e54533b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Escola.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Escola.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
