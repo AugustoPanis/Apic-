@@ -30,16 +30,9 @@ public class MatriculaService : IMatriculaService
             Usuario = new UsuarioGetDTO
             {
                 Id = matricula.Id,
-                nome = matricula.Usuario.Nome,
+                Nome = matricula.Usuario.Nome,
                 Email = matricula.Usuario.Email
             },
-            Turma =  new TurmaGetDTO
-            {
-                Id = matricula.Turma.Id,
-                Nome = matricula.Turma.Nome,
-                Descricao = matricula.Turma.Descricao,
-            }
-                
         };
     }
 

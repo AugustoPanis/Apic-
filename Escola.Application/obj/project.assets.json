@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Microsoft.EntityFrameworkCore/10.0.3": {
@@ -565,24 +565,25 @@
     ]
   },
   "packageFolders": {
-    "/home/panis/.nuget/packages/": {}
+    "/home/ixcsoft/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj",
+      "projectUniqueName": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj",
       "projectName": "Escola.Application",
-      "projectPath": "/home/panis/RiderProjects/Escola/Escola.Application/Escola.Application.csproj",
-      "packagesPath": "/home/panis/.nuget/packages/",
-      "outputPath": "/home/panis/RiderProjects/Escola/Escola.Application/obj/",
+      "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/Escola.Application.csproj",
+      "packagesPath": "/home/ixcsoft/.nuget/packages/",
+      "outputPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/panis/.nuget/NuGet/NuGet.Config"
+        "/home/ixcsoft/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -590,8 +591,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
-              "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj"
+            "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj": {
+              "projectPath": "/home/ixcsoft/RiderProjects/Apic-/Escola.Domain/Escola.Domain.csproj"
             }
           }
         }
@@ -606,7 +607,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -634,7 +635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
