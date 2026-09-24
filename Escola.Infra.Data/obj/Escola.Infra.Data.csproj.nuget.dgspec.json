@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj": {}
+    "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {}
   },
   "projects": {
-    "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
+    "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\Escola.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\Escola.Domain.csproj",
         "projectName": "Escola.Domain",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Domain/obj/",
+        "projectPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\Escola.Domain.csproj",
+        "packagesPath": "C:\\Users\\augusto_panis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\augusto_panis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\augusto_panis\\.dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -345,22 +351,28 @@
         }
       }
     },
-    "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj": {
+    "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Data\\Escola.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
         "projectName": "Escola.Infra.Data",
-        "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj",
-        "packagesPath": "/home/panis/.nuget/packages/",
-        "outputPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Data/obj/",
+        "projectPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Data\\Escola.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\augusto_panis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/panis/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\augusto_panis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -368,8 +380,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj": {
-                "projectPath": "/home/panis/RiderProjects/Escola/Escola.Domain/Escola.Domain.csproj"
+              "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\Escola.Domain.csproj": {
+                "projectPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Domain\\Escola.Domain.csproj"
               }
             }
           }
@@ -428,7 +440,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\augusto_panis\\.dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

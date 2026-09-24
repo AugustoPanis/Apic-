@@ -5,9 +5,12 @@ namespace Escola.Infra.Repositories;
 
 public class UsuarioRepository : IUsuarioRepository
 {
+    
+    
     public Task<Usuario> GetByIdAsync(int Id)
     {
         throw new NotImplementedException();
+
     }
 
     public Task<List<Usuario>> GetAllAsync()

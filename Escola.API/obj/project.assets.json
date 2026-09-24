@@ -2285,24 +2285,31 @@
     ]
   },
   "packageFolders": {
-    "/home/panis/.nuget/packages/": {}
+    "C:\\Users\\augusto_panis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/panis/RiderProjects/Escola/Escola.API/Escola.API.csproj",
+      "projectUniqueName": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.API\\Escola.API.csproj",
       "projectName": "Escola.API",
-      "projectPath": "/home/panis/RiderProjects/Escola/Escola.API/Escola.API.csproj",
-      "packagesPath": "/home/panis/.nuget/packages/",
-      "outputPath": "/home/panis/RiderProjects/Escola/Escola.API/obj/",
+      "projectPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.API\\Escola.API.csproj",
+      "packagesPath": "C:\\Users\\augusto_panis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/panis/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\augusto_panis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2310,8 +2317,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj": {
-              "projectPath": "/home/panis/RiderProjects/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj"
+            "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Ioc\\Escola.Infra.Ioc.csproj": {
+              "projectPath": "C:\\Users\\augusto_panis\\RiderProjects\\Apic-\\Escola.Infra.Ioc\\Escola.Infra.Ioc.csproj"
             }
           }
         }
@@ -2361,7 +2368,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\augusto_panis\\.dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

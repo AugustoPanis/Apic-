@@ -1,10 +1,11 @@
 using Escola.Domain.Interfaces;
 using Escola.Domain.Entities;
+using Escola.Infra.Context;
 
 namespace Escola.Infra.Repositories;
 public class CursoRepository : ICursoRepository
-{
-    public Task<Curso> GetByIdAsync(int Id)
+{ 
+    public async Task<Curso> GetByIdAsync(int Id)
     {
         throw new NotImplementedException();
         
